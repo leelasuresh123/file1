@@ -1,0 +1,6 @@
+import geoplotlib
+from geoplotlib.utils import read_csv
+dataset =read_csv('./data/poaching_points_cleaned.csv')
+geoplotlib.dot(dataset)
+geoplotlib.show()
+
